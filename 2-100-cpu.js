@@ -1,5 +1,8 @@
 function func2(arg2) {
-  for (;;); 
+  var foo;
+  for (;;) {
+    foo = 42;
+  }
 }
 
 function func1(arg1, arg2) {
